@@ -1,0 +1,70 @@
+Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+.image-right{
+    float: right;
+    margin-left: 20px;
+}
+
+.auth-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: #007bff;
+    color: white;
+}
+.image-right{
+    float: right;
+    margin-left: 20px;
+
+}
+
+.features, .categories, .why-choose-us, .testimonials, .newsletter {
+    padding: 2rem 0;
+    text-align: left;
+    background-color: rgb(199, 185, 185);
+    margin-top: 1rem;
+}
+
+.feature, .category {
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
